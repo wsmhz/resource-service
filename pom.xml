@@ -19,15 +19,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.wsmhz</groupId>
-            <artifactId>wsmhz-security-core</artifactId>
+            <groupId>com.wsmhz.security</groupId>
+            <artifactId>resource-service-api</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.wsmhz.common</groupId>
-                    <artifactId>common-business</artifactId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+        <!-- for OAuth 2.0 -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-oauth2 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-oauth2</artifactId>
         </dependency>
     </dependencies>
+
 </project>
